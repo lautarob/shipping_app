@@ -1,0 +1,1652 @@
+Started GET "/" for 172.25.0.1 at 2022-11-03 04:22:32 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 10.7ms | Allocations: 625)
+Completed 200 OK in 68ms (Views: 40.8ms | MongoDB: 0.0ms | Allocations: 3447)
+
+
+Started GET "/" for 172.29.0.1 at 2022-11-03 04:36:05 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.9ms | Allocations: 517)
+Completed 200 OK in 19ms (Views: 10.4ms | MongoDB: 0.0ms | Allocations: 2539)
+
+
+Started GET "/products" for 172.29.0.1 at 2022-11-03 04:36:09 +0000
+Processing by ProductsController#index as HTML
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+Completed 500 Internal Server Error in 31031ms (MongoDB: 0.0ms | Allocations: 15781)
+
+
+MONGODB | Error checking localhost:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on localhost:27017)
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'unknown'.
+  
+Mongo::Error::NoServerAvailable (No primary_preferred server is available in cluster: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]> with timeout=30, LT=0.015):
+  
+app/controllers/products_controller.rb:8:in `index'
+MONGODB | There was a change in the members of the 'Unknown' topology.
+Started GET "/favicon.ico" for 172.29.0.1 at 2022-11-03 04:36:40 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/products" for 172.29.0.1 at 2022-11-03 04:37:01 +0000
+Processing by ProductsController#index as HTML
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.saslStart | STARTED | {}
+MONGODB | db:27017 req:6 | app_development.saslStart | FAILED | [18:AuthenticationFailed]: Authentication failed. | 0.000881958000263694s
+MONGODB | Failed to authenticate to db:27017: Mongo::Auth::Unauthorized: User mongoroot (mechanism: scram) is not authorized to access app_development (auth source: app_development, used mechanism: SCRAM-SHA-1, used server: db:27017 (STANDALONE)): [18:AuthenticationFailed]: Authentication failed.
+Completed 500 Internal Server Error in 90ms (MongoDB: 0.9ms | Allocations: 12516)
+
+
+  
+Mongo::Auth::Unauthorized (User mongoroot (mechanism: scram) is not authorized to access app_development (auth source: app_development, used mechanism: SCRAM-SHA-1, used server: db:27017 (STANDALONE)): [18:AuthenticationFailed]: Authentication failed. (modern retry, attempt 1)):
+  
+app/controllers/products_controller.rb:8:in `index'
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | There was a change in the members of the 'Single' topology.
+MONGODB | Error running awaited hello on db:27017: Mongo::Error::OperationFailure: [11600:InterruptedAtShutdown]: interrupted at shutdown
+Started GET "/products" for 192.168.0.1 at 2022-11-03 04:55:43 +0000
+Processing by ProductsController#index as HTML
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x8820 type=uuid data=0x5bd62826cc5d4f43...>}}
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.000s
+Completed 200 OK in 75ms (Views: 17.0ms | MongoDB: 0.4ms | Allocations: 13372)
+
+
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | There was a change in the members of the 'Single' topology.
+Started GET "/api-docs" for 192.168.32.1 at 2022-11-03 05:09:04 +0000
+Started GET "/api-docs/index.html" for 192.168.32.1 at 2022-11-03 05:09:04 +0000
+Started GET "/api-docs/swagger-ui.css" for 192.168.32.1 at 2022-11-03 05:09:04 +0000
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 192.168.32.1 at 2022-11-03 05:09:04 +0000
+Started GET "/api-docs/swagger-ui-bundle.js" for 192.168.32.1 at 2022-11-03 05:09:04 +0000
+Started GET "/api-docs/v1/swagger.yaml" for 192.168.32.1 at 2022-11-03 05:09:04 +0000
+Started GET "/api-docs/favicon-32x32.png" for 192.168.32.1 at 2022-11-03 05:09:04 +0000
+Started GET "/api/v1/products" for 192.168.32.1 at 2022-11-03 05:09:24 +0000
+  
+Zeitwerk::NameError (expected file /app/backend/app/controllers/api/v1/products_controller.rb to define constant Api::V1::ProductsController, but didn't
+
+      raise Zeitwerk::NameError.new("expected file #{file} to define constant #{cpath}, but didn't", cref.last)
+      ^^^^^):
+  
+zeitwerk (2.6.4) lib/zeitwerk/loader/callbacks.rb:25:in `on_file_autoloaded'
+zeitwerk (2.6.4) lib/zeitwerk/kernel.rb:31:in `require'
+activesupport (7.0.4) lib/active_support/inflector/methods.rb:280:in `const_get'
+activesupport (7.0.4) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (7.0.4) lib/active_support/core_ext/string/inflections.rb:74:in `constantize'
+actionpack (7.0.4) lib/action_dispatch/http/request.rb:90:in `controller_class_for'
+actionpack (7.0.4) lib/action_dispatch/request/utils.rb:95:in `action_encoding_template'
+actionpack (7.0.4) lib/action_dispatch/request/utils.rb:83:in `encode'
+actionpack (7.0.4) lib/action_dispatch/request/utils.rb:45:in `set_binary_encoding'
+actionpack (7.0.4) lib/action_dispatch/http/parameters.rb:68:in `path_parameters='
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:48:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/api/v1products" for 192.168.48.1 at 2022-11-03 05:11:20 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1products"):
+  
+Started GET "/api/v1/products" for 192.168.48.1 at 2022-11-03 05:11:29 +0000
+Processing by Api::V1::ProductsController#index as HTML
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11240 type=uuid data=0x57c45a73e4e24900...>}}
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.000s
+Completed 200 OK in 30ms (Views: 14.1ms | MongoDB: 0.4ms | Allocations: 10468)
+
+
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | There was a change in the members of the 'Single' topology.
+Started GET "/api-docs" for 192.168.48.1 at 2022-11-03 05:11:44 +0000
+Started GET "/api-docs/index.html" for 192.168.48.1 at 2022-11-03 05:11:44 +0000
+Started GET "/api-docs/swagger-ui.css" for 192.168.48.1 at 2022-11-03 05:11:44 +0000
+Started GET "/api-docs/swagger-ui-bundle.js" for 192.168.48.1 at 2022-11-03 05:11:44 +0000
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 192.168.48.1 at 2022-11-03 05:11:44 +0000
+Started GET "/api-docs/v1/swagger.yaml" for 192.168.48.1 at 2022-11-03 05:11:44 +0000
+Started GET "/api-docs" for 192.168.48.1 at 2022-11-03 05:17:26 +0000
+Started GET "/api-docs/index.html" for 192.168.48.1 at 2022-11-03 05:17:26 +0000
+Started GET "/api-docs/swagger-ui.css" for 192.168.48.1 at 2022-11-03 05:17:26 +0000
+Started GET "/api-docs/swagger-ui-bundle.js" for 192.168.48.1 at 2022-11-03 05:17:26 +0000
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 192.168.48.1 at 2022-11-03 05:17:26 +0000
+Started GET "/api-docs/v1/swagger.yaml" for 192.168.48.1 at 2022-11-03 05:17:26 +0000
+Started GET "/api-docs/index.html" for 192.168.48.1 at 2022-11-03 05:19:16 +0000
+Started GET "/api-docs/swagger-ui.css" for 192.168.48.1 at 2022-11-03 05:19:16 +0000
+Started GET "/api-docs/swagger-ui-bundle.js" for 192.168.48.1 at 2022-11-03 05:19:16 +0000
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 192.168.48.1 at 2022-11-03 05:19:16 +0000
+Started GET "/api-docs/v1/swagger.yaml" for 192.168.48.1 at 2022-11-03 05:19:16 +0000
+Started GET "/api-docs/favicon-32x32.png" for 192.168.48.1 at 2022-11-03 05:19:16 +0000
+Started GET "/api-docs/index.html" for 192.168.48.1 at 2022-11-03 05:19:17 +0000
+Started GET "/api-docs/swagger-ui.css" for 192.168.48.1 at 2022-11-03 05:19:17 +0000
+Started GET "/api-docs/swagger-ui-bundle.js" for 192.168.48.1 at 2022-11-03 05:19:18 +0000
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 192.168.48.1 at 2022-11-03 05:19:18 +0000
+Started GET "/api-docs/v1/swagger.yaml" for 192.168.48.1 at 2022-11-03 05:19:18 +0000
+Started GET "/api-docs/favicon-32x32.png" for 192.168.48.1 at 2022-11-03 05:19:18 +0000
+Started GET "/api-docs/index.html" for 192.168.48.1 at 2022-11-03 05:19:39 +0000
+Started GET "/api-docs/swagger-ui-bundle.js" for 192.168.48.1 at 2022-11-03 05:19:39 +0000
+Started GET "/api-docs/swagger-ui.css" for 192.168.48.1 at 2022-11-03 05:19:39 +0000
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 192.168.48.1 at 2022-11-03 05:19:39 +0000
+Started GET "/api-docs/v1/swagger.yaml" for 192.168.48.1 at 2022-11-03 05:19:39 +0000
+Started GET "/api-docs/favicon-32x32.png" for 192.168.48.1 at 2022-11-03 05:19:39 +0000
+Started POST "/api/v1/products" for 192.168.48.1 at 2022-11-03 05:19:48 +0000
+Processing by Api::V1::ProductsController#create as */*
+  Parameters: {"name"=>"Small Package", "type"=>"Golf", "length"=>48, "width"=>14, "height"=>12, "weight"=>42, "product"=>{"name"=>"Small Package", "type"=>"Golf", "length"=>48, "width"=>14, "height"=>12, "weight"=>42}}
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63634f75baf456000142d7c0'), "name"=>"Small Package", "type"=>"Golf", "length"=>48, "width"=>14, "height"=>12, "weight"=>42, "updated_at"=>2022-11-03 05:19:49.257020162 UTC, ...
+MONGODB | db:27017 req:6 | app_development.insert | SUCCEEDED | 0.007s
+Completed 500 Internal Server Error in 60ms (MongoDB: 0.0ms | Allocations: 12427)
+
+
+  
+NoMethodError (undefined method `product_url' for #<Api::V1::ProductsController:0x000000000068d8>
+
+              target.public_send(method, *args)
+                    ^^^^^^^^^^^^):
+  
+app/controllers/api/v1/products_controller.rb:22:in `create'
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | There was a change in the members of the 'Single' topology.
+Started POST "/api/v1/products" for 192.168.48.1 at 2022-11-03 05:20:57 +0000
+Processing by Api::V1::ProductsController#create as */*
+  Parameters: {"name"=>"Small Package", "type"=>"Golf", "length"=>48, "width"=>14, "height"=>12, "weight"=>42, "product"=>{"name"=>"Small Package", "type"=>"Golf", "length"=>48, "width"=>14, "height"=>12, "weight"=>42}}
+MONGODB | db:27017 req:13 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63634fb9baf456000142d7c1'), "name"=>"Small Package", "type"=>"Golf", "length"=>48, "width"=>14, "height"=>12, "weight"=>42, "updated_at"=>2022-11-03 05:20:57.279091037 UTC, ...
+MONGODB | db:27017 req:13 | app_development.insert | SUCCEEDED | 0.001s
+Completed 500 Internal Server Error in 6ms (MongoDB: 0.0ms | Allocations: 3936)
+
+
+  
+NoMethodError (undefined method `product_url' for #<Api::V1::ProductsController:0x00000000006b80>
+
+              target.public_send(method, *args)
+                    ^^^^^^^^^^^^):
+  
+app/controllers/api/v1/products_controller.rb:22:in `create'
+Started GET "/api/v1/products" for 192.168.48.1 at 2022-11-03 05:21:19 +0000
+Processing by Api::V1::ProductsController#index as HTML
+MONGODB | db:27017 req:16 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x13400 type=uuid data=0xd49807dd1fff4586...>}}
+MONGODB | db:27017 req:16 | app_development.find | SUCCEEDED | 0.001s
+Completed 200 OK in 5ms (Views: 3.5ms | MongoDB: 1.2ms | Allocations: 1714)
+
+
+Started POST "/api/v1/products" for 192.168.48.1 at 2022-11-03 05:22:11 +0000
+Processing by Api::V1::ProductsController#create as */*
+  Parameters: {"name"=>"Small Package", "type"=>"Golf", "length"=>48, "width"=>14, "height"=>12, "weight"=>42, "product"=>{"name"=>"Small Package", "type"=>"Golf", "length"=>48, "width"=>14, "height"=>12, "weight"=>42}}
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63635003baf456000104c4a1'), "name"=>"Small Package", "type"=>"Golf", "length"=>48, "width"=>14, "height"=>12, "weight"=>42, "updated_at"=>2022-11-03 05:22:11.758124453 UTC, ...
+MONGODB | db:27017 req:6 | app_development.insert | SUCCEEDED | 0.002s
+Completed 201 Created in 37ms (Views: 0.6ms | MongoDB: 1.5ms | Allocations: 8966)
+
+
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | There was a change in the members of the 'Single' topology.
+Started GET "/api/v1/products" for 192.168.48.1 at 2022-11-03 05:22:32 +0000
+Processing by Api::V1::ProductsController#index as */*
+MONGODB | db:27017 req:9 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11060 type=uuid data=0x45e1637d4ded495d...>}}
+MONGODB | db:27017 req:9 | app_development.find | SUCCEEDED | 0.001s
+Completed 200 OK in 4ms (Views: 3.5ms | MongoDB: 0.6ms | Allocations: 1813)
+
+
+Started GET "/api/v1/products/63635003baf456000104c4a1" for 192.168.48.1 at 2022-11-03 05:22:45 +0000
+Processing by Api::V1::ProductsController#show as */*
+  Parameters: {"id"=>"63635003baf456000104c4a1"}
+MONGODB | db:27017 req:11 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"_id"=>BSON::ObjectId('63635003baf456000104c4a1')}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11060 type=uuid data=0x45e1637d4ded495d...>}}
+MONGODB | db:27017 req:11 | app_development.find | SUCCEEDED | 0.001s
+Completed 200 OK in 5ms (Views: 0.5ms | MongoDB: 1.1ms | Allocations: 1080)
+
+
+Started GET "/api-docs/index.html" for 192.168.48.1 at 2022-11-03 05:29:31 +0000
+Started GET "/api-docs/swagger-ui.css" for 192.168.48.1 at 2022-11-03 05:29:31 +0000
+Started GET "/api-docs/swagger-ui-bundle.js" for 192.168.48.1 at 2022-11-03 05:29:31 +0000
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 192.168.48.1 at 2022-11-03 05:29:31 +0000
+Started GET "/api-docs/v1/swagger.yaml" for 192.168.48.1 at 2022-11-03 05:29:31 +0000
+Started GET "/api-docs/favicon-32x32.png" for 192.168.48.1 at 2022-11-03 05:29:31 +0000
+Started POST "/api/v1/products" for 192.168.48.1 at 2022-11-03 05:29:44 +0000
+Processing by Api::V1::ProductsController#create as */*
+  Parameters: {"name"=>"test", "type"=>"test2", "length"=>0, "width"=>0, "height"=>0, "weight"=>0, "product"=>{"name"=>"test", "type"=>"test2", "length"=>0, "width"=>0, "height"=>0, "weight"=>0}}
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('636351c8baf45600015f5a67'), "name"=>"test", "type"=>"test2", "length"=>0, "width"=>0, "height"=>0, "weight"=>0, "updated_at"=>2022-11-03 05:29:44.63112529 UTC, "created_at"=...
+MONGODB | db:27017 req:6 | app_development.insert | SUCCEEDED | 0.002s
+Completed 201 Created in 38ms (Views: 0.8ms | MongoDB: 1.7ms | Allocations: 8944)
+
+
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | There was a change in the members of the 'Single' topology.
+Started POST "/api/v1/products" for 192.168.48.1 at 2022-11-03 05:30:06 +0000
+Processing by Api::V1::ProductsController#create as */*
+  Parameters: {"name"=>"test", "type"=>"test2", "product"=>{"name"=>"test", "type"=>"test2"}}
+MONGODB | db:27017 req:9 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('636351debaf45600015f5a68'), "name"=>"test", "type"=>"test2", "updated_at"=>2022-11-03 05:30:06.856484538 UTC, "created_at"=>2022-11-03 05:30:06.856484538 UTC}], "$db"=>"app_...
+MONGODB | db:27017 req:9 | app_development.insert | SUCCEEDED | 0.001s
+Completed 201 Created in 4ms (Views: 0.4ms | MongoDB: 0.5ms | Allocations: 1126)
+
+
+Started GET "/api-docs/index.html" for 192.168.48.1 at 2022-11-03 05:37:24 +0000
+Started GET "/api-docs/swagger-ui.css" for 192.168.48.1 at 2022-11-03 05:37:24 +0000
+Started GET "/api-docs/swagger-ui-bundle.js" for 192.168.48.1 at 2022-11-03 05:37:24 +0000
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 192.168.48.1 at 2022-11-03 05:37:24 +0000
+Started GET "/api-docs/v1/swagger.yaml" for 192.168.48.1 at 2022-11-03 05:37:25 +0000
+Started GET "/api-docs/favicon-32x32.png" for 192.168.48.1 at 2022-11-03 05:37:25 +0000
+Started GET "/api/v1/products/1" for 192.168.48.1 at 2022-11-03 05:38:32 +0000
+Processing by Api::V1::ProductsController#show as */*
+  Parameters: {"id"=>"1"}
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"_id"=>"1"}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x13500 type=uuid data=0xfc9fe15e0be14744...>}}
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.001s
+Completed 404 Not Found in 72ms (MongoDB: 1.1ms | Allocations: 14256)
+
+
+  
+Mongoid::Errors::DocumentNotFound (
+message:
+  Document(s) not found for class Product with id(s) 1.
+summary:
+  When calling Product.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 1 ... (1 total) and the following ids were not found: 1.
+resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  
+app/controllers/api/v1/products_controller.rb:45:in `set_product'
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | There was a change in the members of the 'Single' topology.
+Started GET "/api-docs/index.html" for 192.168.48.1 at 2022-11-03 05:43:03 +0000
+Started GET "/api-docs/swagger-ui.css" for 192.168.48.1 at 2022-11-03 05:43:03 +0000
+Started GET "/api-docs/swagger-ui-bundle.js" for 192.168.48.1 at 2022-11-03 05:43:03 +0000
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 192.168.48.1 at 2022-11-03 05:43:03 +0000
+Started GET "/api-docs/v1/swagger.yaml" for 192.168.48.1 at 2022-11-03 05:43:03 +0000
+Started GET "/api-docs/favicon-32x32.png" for 192.168.48.1 at 2022-11-03 05:43:03 +0000
+Started GET "/api-docs/index.html" for 192.168.48.1 at 2022-11-03 05:57:25 +0000
+Started GET "/api-docs/swagger-ui.css" for 192.168.48.1 at 2022-11-03 05:57:25 +0000
+Started GET "/api-docs/swagger-ui-bundle.js" for 192.168.48.1 at 2022-11-03 05:57:25 +0000
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 192.168.48.1 at 2022-11-03 05:57:25 +0000
+Started GET "/api-docs/v1/swagger.yaml" for 192.168.48.1 at 2022-11-03 05:57:25 +0000
+Started GET "/api-docs/favicon-32x32.png" for 192.168.48.1 at 2022-11-03 05:57:25 +0000
+Started GET "/api-docs/index.html" for 192.168.48.1 at 2022-11-03 05:59:56 +0000
+Started GET "/api-docs/swagger-ui.css" for 192.168.48.1 at 2022-11-03 05:59:56 +0000
+Started GET "/api-docs/swagger-ui-bundle.js" for 192.168.48.1 at 2022-11-03 05:59:56 +0000
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 192.168.48.1 at 2022-11-03 05:59:56 +0000
+Started GET "/api-docs/v1/swagger.yaml" for 192.168.48.1 at 2022-11-03 05:59:56 +0000
+Started GET "/api-docs/favicon-32x32.png" for 192.168.48.1 at 2022-11-03 05:59:56 +0000
+Started GET "/api-docs/index.html" for 192.168.48.1 at 2022-11-03 06:00:01 +0000
+Started GET "/api-docs/swagger-ui.css" for 192.168.48.1 at 2022-11-03 06:00:01 +0000
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 192.168.48.1 at 2022-11-03 06:00:01 +0000
+Started GET "/api-docs/swagger-ui-bundle.js" for 192.168.48.1 at 2022-11-03 06:00:01 +0000
+Started GET "/api-docs/v1/swagger.yaml" for 192.168.48.1 at 2022-11-03 06:00:01 +0000
+Started GET "/api-docs/favicon-32x32.png" for 192.168.48.1 at 2022-11-03 06:00:01 +0000
+Started GET "/api-docs/index.html" for 192.168.48.1 at 2022-11-03 06:02:00 +0000
+Started GET "/api-docs/swagger-ui-bundle.js" for 192.168.48.1 at 2022-11-03 06:02:00 +0000
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 192.168.48.1 at 2022-11-03 06:02:00 +0000
+Started GET "/api-docs/swagger-ui.css" for 192.168.48.1 at 2022-11-03 06:02:00 +0000
+Started GET "/api-docs/v1/swagger.yaml" for 192.168.48.1 at 2022-11-03 06:02:00 +0000
+Started GET "/api-docs/favicon-32x32.png" for 192.168.48.1 at 2022-11-03 06:02:00 +0000
+Started GET "/api/v1/products" for 192.168.48.1 at 2022-11-03 06:02:35 +0000
+Processing by Api::V1::ProductsController#index as */*
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x14660 type=uuid data=0xe8abc63aaba64bd7...>}}
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.002s
+Completed 200 OK in 42ms (Views: 15.1ms | MongoDB: 1.6ms | Allocations: 13939)
+
+
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | There was a change in the members of the 'Single' topology.
+Started GET "/api-docs/index.html" for 192.168.48.1 at 2022-11-03 06:03:41 +0000
+Started GET "/api-docs/swagger-ui.css" for 192.168.48.1 at 2022-11-03 06:03:41 +0000
+Started GET "/api-docs/swagger-ui-bundle.js" for 192.168.48.1 at 2022-11-03 06:03:41 +0000
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 192.168.48.1 at 2022-11-03 06:03:41 +0000
+Started GET "/api-docs/v1/swagger.yaml" for 192.168.48.1 at 2022-11-03 06:03:41 +0000
+Started GET "/api-docs/favicon-32x32.png" for 192.168.48.1 at 2022-11-03 06:03:41 +0000
+Started GET "/api/v1/products" for 192.168.48.1 at 2022-11-03 06:03:54 +0000
+Processing by Api::V1::ProductsController#index as JSON
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x15120 type=uuid data=0x6d8612f7cb644198...>}}
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.001s
+Completed 200 OK in 42ms (Views: 15.3ms | MongoDB: 1.0ms | Allocations: 13940)
+
+
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone' [awaited].
+MONGODB | There was a change in the members of the 'Single' topology.
+Started GET "/api-docs/index.html" for 192.168.48.1 at 2022-11-03 06:14:02 +0000
+Started GET "/api-docs/swagger-ui-bundle.js" for 192.168.48.1 at 2022-11-03 06:14:02 +0000
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 192.168.48.1 at 2022-11-03 06:14:02 +0000
+Started GET "/api-docs/swagger-ui.css" for 192.168.48.1 at 2022-11-03 06:14:02 +0000
+Started GET "/api-docs/v1/swagger.yaml" for 192.168.48.1 at 2022-11-03 06:14:02 +0000
+Started GET "/api-docs/favicon-32x32.png" for 192.168.48.1 at 2022-11-03 06:14:02 +0000
+Started POST "/api/v1/products" for 192.168.48.1 at 2022-11-03 06:14:17 +0000
+Processing by Api::V1::ProductsController#create as */*
+  Parameters: {"name"=>"testa", "type"=>"tesasda", "product"=>{"name"=>"testa", "type"=>"tesasda"}}
+Completed 422 Unprocessable Entity in 38ms (Views: 14.1ms | MongoDB: 0.0ms | Allocations: 7061)
+
+
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63635f6432bc3a0001d19b79'), "name"=>"Small Package", "type"=>"Golf", "length"=>48, "width"=>14, "height"=>12, "weight"=>42, "updated_at"=>2022-11-03 06:27:48.691494723 UTC, ...
+MONGODB | db:27017 req:6 | app_development.insert | SUCCEEDED | 0.002s
+MONGODB | db:27017 req:7 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63635f6432bc3a0001d19b7a'), "name"=>"Large Package", "type"=>"Golf", "length"=>52, "width"=>16, "height"=>14, "weight"=>56, "updated_at"=>2022-11-03 06:27:48.706894416 UTC, ...
+MONGODB | db:27017 req:7 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:8 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63635f6432bc3a0001d19b7b'), "name"=>"Extra Large Package", "type"=>"Golf", "length"=>56, "width"=>18, "height"=>16, "weight"=>70, "updated_at"=>2022-11-03 06:27:48.709807626...
+MONGODB | db:27017 req:8 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:9 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63635f6432bc3a0001d19b7c'), "name"=>"Carry On", "type"=>"Luggage", "length"=>25, "width"=>15, "height"=>7, "weight"=>25, "updated_at"=>2022-11-03 06:27:48.712204198 UTC, "cr...
+MONGODB | db:27017 req:9 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:10 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63635f6432bc3a0001d19b7d'), "name"=>"Checked Bag", "type"=>"Luggage", "length"=>26, "width"=>16, "height"=>22, "weight"=>50, "updated_at"=>2022-11-03 06:27:48.714605458 UTC,...
+MONGODB | db:27017 req:10 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:11 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63635f6432bc3a0001d19b7e'), "name"=>"Oversized Bag", "type"=>"Luggage", "length"=>41, "width"=>11, "height"=>24, "weight"=>72, "updated_at"=>2022-11-03 06:27:48.716621464 UT...
+MONGODB | db:27017 req:11 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:12 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63635f6432bc3a0001d19b7f'), "name"=>"Ski Bag", "type"=>"Ski", "length"=>72, "width"=>8, "height"=>10, "weight"=>25, "updated_at"=>2022-11-03 06:27:48.719154311 UTC, "created...
+MONGODB | db:27017 req:12 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:13 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63635f6432bc3a0001d19b80'), "name"=>"Snowboard Bag", "type"=>"Ski", "length"=>62, "width"=>14, "height"=>8, "weight"=>25, "updated_at"=>2022-11-03 06:27:48.721414111 UTC, "c...
+MONGODB | db:27017 req:13 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:14 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63635f6432bc3a0001d19b81'), "name"=>"Double Ski Bag", "type"=>"Ski", "length"=>80, "width"=>10, "height"=>12, "weight"=>40, "updated_at"=>2022-11-03 06:27:48.724298676 UTC, ...
+MONGODB | db:27017 req:14 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:15 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63635f6432bc3a0001d19b82'), "name"=>"Double Snowboard Bag", "type"=>"Ski", "length"=>70, "width"=>14, "height"=>12, "weight"=>40, "updated_at"=>2022-11-03 06:27:48.726772913...
+MONGODB | db:27017 req:15 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:16 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63635f6432bc3a0001d19b83'), "name"=>"Snowboot Bag", "type"=>"Ski", "length"=>25, "width"=>15, "height"=>7, "weight"=>25, "updated_at"=>2022-11-03 06:27:48.72904435 UTC, "cre...
+MONGODB | db:27017 req:16 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xd3ec4856f26d4ef1...>}}
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.001s
+MONGODB | db:27017 req:7 conn:1:1 sconn:6 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('63634f75baf456000142d7c0')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xd3ec4856f26d4ef1...>}}
+MONGODB | db:27017 req:7 | app_development.delete | SUCCEEDED | 0.002s
+MONGODB | db:27017 req:8 conn:1:1 sconn:6 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('63634fb9baf456000142d7c1')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xd3ec4856f26d4ef1...>}}
+MONGODB | db:27017 req:8 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:9 conn:1:1 sconn:6 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('63635003baf456000104c4a1')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xd3ec4856f26d4ef1...>}}
+MONGODB | db:27017 req:9 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:10 conn:1:1 sconn:6 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('636351c8baf45600015f5a67')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xd3ec4856f26d4ef1...>}}
+MONGODB | db:27017 req:10 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:11 conn:1:1 sconn:6 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('636351debaf45600015f5a68')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xd3ec4856f26d4ef1...>}}
+MONGODB | db:27017 req:11 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:12 conn:1:1 sconn:6 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('63635f6432bc3a0001d19b79')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xd3ec4856f26d4ef1...>}}
+MONGODB | db:27017 req:12 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:13 conn:1:1 sconn:6 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('63635f6432bc3a0001d19b7a')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xd3ec4856f26d4ef1...>}}
+MONGODB | db:27017 req:13 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:14 conn:1:1 sconn:6 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('63635f6432bc3a0001d19b7b')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xd3ec4856f26d4ef1...>}}
+MONGODB | db:27017 req:14 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:15 conn:1:1 sconn:6 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('63635f6432bc3a0001d19b7c')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xd3ec4856f26d4ef1...>}}
+MONGODB | db:27017 req:15 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:16 conn:1:1 sconn:6 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('63635f6432bc3a0001d19b7d')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xd3ec4856f26d4ef1...>}}
+MONGODB | db:27017 req:16 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:17 conn:1:1 sconn:6 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('63635f6432bc3a0001d19b7e')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xd3ec4856f26d4ef1...>}}
+MONGODB | db:27017 req:17 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:18 conn:1:1 sconn:6 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('63635f6432bc3a0001d19b7f')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xd3ec4856f26d4ef1...>}}
+MONGODB | db:27017 req:18 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:19 conn:1:1 sconn:6 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('63635f6432bc3a0001d19b80')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xd3ec4856f26d4ef1...>}}
+MONGODB | db:27017 req:19 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:20 conn:1:1 sconn:6 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('63635f6432bc3a0001d19b81')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xd3ec4856f26d4ef1...>}}
+MONGODB | db:27017 req:20 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:21 conn:1:1 sconn:6 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('63635f6432bc3a0001d19b82')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xd3ec4856f26d4ef1...>}}
+MONGODB | db:27017 req:21 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:22 conn:1:1 sconn:6 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('63635f6432bc3a0001d19b83')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xd3ec4856f26d4ef1...>}}
+MONGODB | db:27017 req:22 | app_development.delete | SUCCEEDED | 0.000s
+Started GET "/api/v1/products" for 192.168.48.1 at 2022-11-03 06:28:30 +0000
+Processing by Api::V1::ProductsController#index as JSON
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:9 | app_development.find | STARTED | {"find"=>"products", "filter"=>{}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11040 type=uuid data=0xdaf7f9fd3af2443a...>}}
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.000s
+Completed 200 OK in 42ms (Views: 14.8ms | MongoDB: 0.4ms | Allocations: 12569)
+
+
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63635f9cc291d600019f58f6'), "name"=>"Small Package", "type"=>"Golf", "length"=>48, "width"=>14, "height"=>12, "weight"=>42, "updated_at"=>2022-11-03 06:28:44.875886987 UTC, ...
+MONGODB | db:27017 req:6 | app_development.insert | SUCCEEDED | 0.001s
+MONGODB | db:27017 req:7 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63635f9cc291d600019f58f7'), "name"=>"Large Package", "type"=>"Golf", "length"=>52, "width"=>16, "height"=>14, "weight"=>56, "updated_at"=>2022-11-03 06:28:44.895035168 UTC, ...
+MONGODB | db:27017 req:7 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:8 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63635f9cc291d600019f58f8'), "name"=>"Extra Large Package", "type"=>"Golf", "length"=>56, "width"=>18, "height"=>16, "weight"=>70, "updated_at"=>2022-11-03 06:28:44.898458216...
+MONGODB | db:27017 req:8 | app_development.insert | SUCCEEDED | 0.001s
+MONGODB | db:27017 req:9 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63635f9cc291d600019f58f9'), "name"=>"Carry On", "type"=>"Luggage", "length"=>25, "width"=>15, "height"=>7, "weight"=>25, "updated_at"=>2022-11-03 06:28:44.902154443 UTC, "cr...
+MONGODB | db:27017 req:9 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:10 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63635f9cc291d600019f58fa'), "name"=>"Checked Bag", "type"=>"Luggage", "length"=>26, "width"=>16, "height"=>22, "weight"=>50, "updated_at"=>2022-11-03 06:28:44.905282608 UTC,...
+MONGODB | db:27017 req:10 | app_development.insert | SUCCEEDED | 0.001s
+MONGODB | db:27017 req:11 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63635f9cc291d600019f58fb'), "name"=>"Oversized Bag", "type"=>"Luggage", "length"=>41, "width"=>11, "height"=>24, "weight"=>72, "updated_at"=>2022-11-03 06:28:44.90811074 UTC...
+MONGODB | db:27017 req:11 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:12 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63635f9cc291d600019f58fc'), "name"=>"Ski Bag", "type"=>"Ski", "length"=>72, "width"=>8, "height"=>10, "weight"=>25, "updated_at"=>2022-11-03 06:28:44.910859754 UTC, "created...
+MONGODB | db:27017 req:12 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:13 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63635f9cc291d600019f58fd'), "name"=>"Snowboard Bag", "type"=>"Ski", "length"=>62, "width"=>14, "height"=>8, "weight"=>25, "updated_at"=>2022-11-03 06:28:44.913941201 UTC, "c...
+MONGODB | db:27017 req:13 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:14 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63635f9cc291d600019f58fe'), "name"=>"Double Ski Bag", "type"=>"Ski", "length"=>80, "width"=>10, "height"=>12, "weight"=>40, "updated_at"=>2022-11-03 06:28:44.917171694 UTC, ...
+MONGODB | db:27017 req:14 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:15 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63635f9cc291d600019f58ff'), "name"=>"Double Snowboard Bag", "type"=>"Ski", "length"=>70, "width"=>14, "height"=>12, "weight"=>40, "updated_at"=>2022-11-03 06:28:44.920395641...
+MONGODB | db:27017 req:15 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:16 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63635f9cc291d600019f5900'), "name"=>"Snowboot Bag", "type"=>"Ski", "length"=>25, "width"=>15, "height"=>7, "weight"=>25, "updated_at"=>2022-11-03 06:28:44.92316431 UTC, "cre...
+MONGODB | db:27017 req:16 | app_development.insert | SUCCEEDED | 0.000s
+Started GET "/api/v1/products" for 192.168.48.1 at 2022-11-03 06:29:05 +0000
+Processing by Api::V1::ProductsController#index as JSON
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11040 type=uuid data=0x7d9f85f846e44c2c...>}}
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.001s
+Completed 200 OK in 47ms (Views: 18.5ms | MongoDB: 0.6ms | Allocations: 15446)
+
+
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | There was a change in the members of the 'Single' topology.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Small Package", "type"=>"Golf", "length"=>48, "width"=>14, "height"=>12, "weight"=>42}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x057f2ff3f2f...
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.003s
+MONGODB | db:27017 req:7 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Large Package", "type"=>"Golf", "length"=>52, "width"=>16, "height"=>14, "weight"=>56}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x057f2ff3f2f...
+MONGODB | db:27017 req:7 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:8 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Extra Large Package", "type"=>"Golf", "length"=>56, "width"=>18, "height"=>16, "weight"=>70}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x057f2...
+MONGODB | db:27017 req:8 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:9 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Carry On", "type"=>"Luggage", "length"=>25, "width"=>15, "height"=>7, "weight"=>25}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x057f2ff3f2fc4a...
+MONGODB | db:27017 req:9 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:10 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Checked Bag", "type"=>"Luggage", "length"=>26, "width"=>16, "height"=>22, "weight"=>50}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x057f2ff3f2...
+MONGODB | db:27017 req:10 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:11 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Oversized Bag", "type"=>"Luggage", "length"=>41, "width"=>11, "height"=>24, "weight"=>72}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x057f2ff3...
+MONGODB | db:27017 req:11 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:12 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Ski Bag", "type"=>"Ski", "length"=>72, "width"=>8, "height"=>10, "weight"=>25}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x057f2ff3f2fc4a17......
+MONGODB | db:27017 req:12 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:13 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Snowboard Bag", "type"=>"Ski", "length"=>62, "width"=>14, "height"=>8, "weight"=>25}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x057f2ff3f2fc4...
+MONGODB | db:27017 req:13 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:14 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Double Ski Bag", "type"=>"Ski", "length"=>80, "width"=>10, "height"=>12, "weight"=>40}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x057f2ff3f2f...
+MONGODB | db:27017 req:14 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:15 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Double Snowboard Bag", "type"=>"Ski", "length"=>70, "width"=>14, "height"=>12, "weight"=>40}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x057f2...
+MONGODB | db:27017 req:15 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:16 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Snowboot Bag", "type"=>"Ski", "length"=>25, "width"=>15, "height"=>7, "weight"=>25}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x057f2ff3f2fc4a...
+MONGODB | db:27017 req:16 | app_development.find | SUCCEEDED | 0.000s
+Started GET "/api/v1/products" for 192.168.48.1 at 2022-11-03 06:30:44 +0000
+Processing by Api::V1::ProductsController#index as JSON
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11020 type=uuid data=0x8e701e03ca5146be...>}}
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.001s
+Completed 200 OK in 44ms (Views: 17.2ms | MongoDB: 0.5ms | Allocations: 15449)
+
+
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | There was a change in the members of the 'Single' topology.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x8f61c60372614e14...>}}
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.001s
+MONGODB | db:27017 req:7 conn:1:1 sconn:3 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('63635f9cc291d600019f58f6')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x8f61c60372614e14...>}}
+MONGODB | db:27017 req:7 | app_development.delete | SUCCEEDED | 0.001s
+MONGODB | db:27017 req:8 conn:1:1 sconn:3 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('63635f9cc291d600019f58f7')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x8f61c60372614e14...>}}
+MONGODB | db:27017 req:8 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:9 conn:1:1 sconn:3 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('63635f9cc291d600019f58f8')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x8f61c60372614e14...>}}
+MONGODB | db:27017 req:9 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:10 conn:1:1 sconn:3 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('63635f9cc291d600019f58f9')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x8f61c60372614e14...>}}
+MONGODB | db:27017 req:10 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:11 conn:1:1 sconn:3 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('63635f9cc291d600019f58fa')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x8f61c60372614e14...>}}
+MONGODB | db:27017 req:11 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:12 conn:1:1 sconn:3 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('63635f9cc291d600019f58fb')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x8f61c60372614e14...>}}
+MONGODB | db:27017 req:12 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:13 conn:1:1 sconn:3 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('63635f9cc291d600019f58fc')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x8f61c60372614e14...>}}
+MONGODB | db:27017 req:13 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:14 conn:1:1 sconn:3 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('63635f9cc291d600019f58fd')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x8f61c60372614e14...>}}
+MONGODB | db:27017 req:14 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:15 conn:1:1 sconn:3 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('63635f9cc291d600019f58fe')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x8f61c60372614e14...>}}
+MONGODB | db:27017 req:15 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:16 conn:1:1 sconn:3 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('63635f9cc291d600019f58ff')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x8f61c60372614e14...>}}
+MONGODB | db:27017 req:16 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:17 conn:1:1 sconn:3 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('63635f9cc291d600019f5900')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x8f61c60372614e14...>}}
+MONGODB | db:27017 req:17 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Small Package", "type"=>"Golf", "length"=>48, "width"=>14, "height"=>12, "weight"=>42}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xa75df4d0886...
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:7 conn:1:1 sconn:6 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('6363603e9417840001ff40a3'), "name"=>"Small Package", "type"=>"Golf", "length"=>48, "width"=>14, "height"=>12, "weight"=>42, "updated_at"=>2022-11-03 06:31:26.247865445 UTC, ...
+MONGODB | db:27017 req:7 | app_development.insert | SUCCEEDED | 0.001s
+MONGODB | db:27017 req:8 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Large Package", "type"=>"Golf", "length"=>52, "width"=>16, "height"=>14, "weight"=>56}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xa75df4d0886...
+MONGODB | db:27017 req:8 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:9 conn:1:1 sconn:6 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('6363603e9417840001ff40a4'), "name"=>"Large Package", "type"=>"Golf", "length"=>52, "width"=>16, "height"=>14, "weight"=>56, "updated_at"=>2022-11-03 06:31:26.253441641 UTC, ...
+MONGODB | db:27017 req:9 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:10 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Extra Large Package", "type"=>"Golf", "length"=>56, "width"=>18, "height"=>16, "weight"=>70}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xa75df...
+MONGODB | db:27017 req:10 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:11 conn:1:1 sconn:6 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('6363603e9417840001ff40a5'), "name"=>"Extra Large Package", "type"=>"Golf", "length"=>56, "width"=>18, "height"=>16, "weight"=>70, "updated_at"=>2022-11-03 06:31:26.257732896...
+MONGODB | db:27017 req:11 | app_development.insert | SUCCEEDED | 0.001s
+MONGODB | db:27017 req:12 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Carry On", "type"=>"Luggage", "length"=>25, "width"=>15, "height"=>7, "weight"=>25}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xa75df4d0886e40...
+MONGODB | db:27017 req:12 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:13 conn:1:1 sconn:6 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('6363603e9417840001ff40a6'), "name"=>"Carry On", "type"=>"Luggage", "length"=>25, "width"=>15, "height"=>7, "weight"=>25, "updated_at"=>2022-11-03 06:31:26.263288256 UTC, "cr...
+MONGODB | db:27017 req:13 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:14 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Checked Bag", "type"=>"Luggage", "length"=>26, "width"=>16, "height"=>22, "weight"=>50}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xa75df4d088...
+MONGODB | db:27017 req:14 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:15 conn:1:1 sconn:6 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('6363603e9417840001ff40a7'), "name"=>"Checked Bag", "type"=>"Luggage", "length"=>26, "width"=>16, "height"=>22, "weight"=>50, "updated_at"=>2022-11-03 06:31:26.268058907 UTC,...
+MONGODB | db:27017 req:15 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:16 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Oversized Bag", "type"=>"Luggage", "length"=>41, "width"=>11, "height"=>24, "weight"=>72}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xa75df4d0...
+MONGODB | db:27017 req:16 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:17 conn:1:1 sconn:6 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('6363603e9417840001ff40a8'), "name"=>"Oversized Bag", "type"=>"Luggage", "length"=>41, "width"=>11, "height"=>24, "weight"=>72, "updated_at"=>2022-11-03 06:31:26.272564015 UT...
+MONGODB | db:27017 req:17 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:18 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Ski Bag", "type"=>"Ski", "length"=>72, "width"=>8, "height"=>10, "weight"=>25}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xa75df4d0886e40cc......
+MONGODB | db:27017 req:18 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:19 conn:1:1 sconn:6 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('6363603e9417840001ff40a9'), "name"=>"Ski Bag", "type"=>"Ski", "length"=>72, "width"=>8, "height"=>10, "weight"=>25, "updated_at"=>2022-11-03 06:31:26.276770215 UTC, "created...
+MONGODB | db:27017 req:19 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:20 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Snowboard Bag", "type"=>"Ski", "length"=>62, "width"=>14, "height"=>8, "weight"=>25}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xa75df4d0886e4...
+MONGODB | db:27017 req:20 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:21 conn:1:1 sconn:6 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('6363603e9417840001ff40aa'), "name"=>"Snowboard Bag", "type"=>"Ski", "length"=>62, "width"=>14, "height"=>8, "weight"=>25, "updated_at"=>2022-11-03 06:31:26.281721827 UTC, "c...
+MONGODB | db:27017 req:21 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:22 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Double Ski Bag", "type"=>"Ski", "length"=>80, "width"=>10, "height"=>12, "weight"=>40}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xa75df4d0886...
+MONGODB | db:27017 req:22 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:23 conn:1:1 sconn:6 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('6363603e9417840001ff40ab'), "name"=>"Double Ski Bag", "type"=>"Ski", "length"=>80, "width"=>10, "height"=>12, "weight"=>40, "updated_at"=>2022-11-03 06:31:26.286845698 UTC, ...
+MONGODB | db:27017 req:23 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:24 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Double Snowboard Bag", "type"=>"Ski", "length"=>70, "width"=>14, "height"=>12, "weight"=>40}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xa75df...
+MONGODB | db:27017 req:24 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:25 conn:1:1 sconn:6 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('6363603e9417840001ff40ac'), "name"=>"Double Snowboard Bag", "type"=>"Ski", "length"=>70, "width"=>14, "height"=>12, "weight"=>40, "updated_at"=>2022-11-03 06:31:26.290851382...
+MONGODB | db:27017 req:25 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:26 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Snowboot Bag", "type"=>"Ski", "length"=>25, "width"=>15, "height"=>7, "weight"=>25}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0xa75df4d0886e40...
+MONGODB | db:27017 req:26 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:27 conn:1:1 sconn:6 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('6363603e9417840001ff40ad'), "name"=>"Snowboot Bag", "type"=>"Ski", "length"=>25, "width"=>15, "height"=>7, "weight"=>25, "updated_at"=>2022-11-03 06:31:26.295741874 UTC, "cr...
+MONGODB | db:27017 req:27 | app_development.insert | SUCCEEDED | 0.000s
+Started GET "/api-docs/index.html" for 192.168.48.1 at 2022-11-03 06:31:40 +0000
+Started GET "/api-docs/swagger-ui.css" for 192.168.48.1 at 2022-11-03 06:31:40 +0000
+Started GET "/api-docs/swagger-ui-bundle.js" for 192.168.48.1 at 2022-11-03 06:31:40 +0000
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 192.168.48.1 at 2022-11-03 06:31:40 +0000
+Started GET "/api-docs/v1/swagger.yaml" for 192.168.48.1 at 2022-11-03 06:31:40 +0000
+Started GET "/api-docs/favicon-32x32.png" for 192.168.48.1 at 2022-11-03 06:31:40 +0000
+Started GET "/api-docs/index.html" for 192.168.48.1 at 2022-11-03 06:31:41 +0000
+Started GET "/api-docs/swagger-ui.css" for 192.168.48.1 at 2022-11-03 06:31:41 +0000
+Started GET "/api-docs/swagger-ui-bundle.js" for 192.168.48.1 at 2022-11-03 06:31:41 +0000
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 192.168.48.1 at 2022-11-03 06:31:41 +0000
+Started GET "/api-docs/v1/swagger.yaml" for 192.168.48.1 at 2022-11-03 06:31:42 +0000
+Started GET "/api-docs/favicon-32x32.png" for 192.168.48.1 at 2022-11-03 06:31:42 +0000
+Started GET "/api/v1/products" for 192.168.48.1 at 2022-11-03 06:31:46 +0000
+Processing by Api::V1::ProductsController#index as JSON
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:9 | app_development.find | STARTED | {"find"=>"products", "filter"=>{}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x18720 type=uuid data=0x4e21cde2e0f54f34...>}}
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.001s
+Completed 200 OK in 45ms (Views: 16.3ms | MongoDB: 0.8ms | Allocations: 15412)
+
+
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | There was a change in the members of the 'Single' topology.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x4363dffee6e24cdc...>}}
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.001s
+MONGODB | db:27017 req:7 conn:1:1 sconn:3 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('6363603e9417840001ff40a3')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x4363dffee6e24cdc...>}}
+MONGODB | db:27017 req:7 | app_development.delete | SUCCEEDED | 0.001s
+MONGODB | db:27017 req:8 conn:1:1 sconn:3 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('6363603e9417840001ff40a4')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x4363dffee6e24cdc...>}}
+MONGODB | db:27017 req:8 | app_development.delete | SUCCEEDED | 0.001s
+MONGODB | db:27017 req:9 conn:1:1 sconn:3 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('6363603e9417840001ff40a5')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x4363dffee6e24cdc...>}}
+MONGODB | db:27017 req:9 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:10 conn:1:1 sconn:3 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('6363603e9417840001ff40a6')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x4363dffee6e24cdc...>}}
+MONGODB | db:27017 req:10 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:11 conn:1:1 sconn:3 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('6363603e9417840001ff40a7')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x4363dffee6e24cdc...>}}
+MONGODB | db:27017 req:11 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:12 conn:1:1 sconn:3 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('6363603e9417840001ff40a8')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x4363dffee6e24cdc...>}}
+MONGODB | db:27017 req:12 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:13 conn:1:1 sconn:3 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('6363603e9417840001ff40a9')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x4363dffee6e24cdc...>}}
+MONGODB | db:27017 req:13 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:14 conn:1:1 sconn:3 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('6363603e9417840001ff40aa')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x4363dffee6e24cdc...>}}
+MONGODB | db:27017 req:14 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:15 conn:1:1 sconn:3 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('6363603e9417840001ff40ab')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x4363dffee6e24cdc...>}}
+MONGODB | db:27017 req:15 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:16 conn:1:1 sconn:3 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('6363603e9417840001ff40ac')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x4363dffee6e24cdc...>}}
+MONGODB | db:27017 req:16 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:17 conn:1:1 sconn:3 | app_development.delete | STARTED | {"delete"=>"products", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('6363603e9417840001ff40ad')}, "limit"=>1}], "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x4363dffee6e24cdc...>}}
+MONGODB | db:27017 req:17 | app_development.delete | SUCCEEDED | 0.000s
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Small Package", "type"=>"Golf", "length"=>48, "width"=>14, "height"=>12, "weight"=>42}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x24b1c5b7c4b...
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.001s
+MONGODB | db:27017 req:7 conn:1:1 sconn:6 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63636680c5501f000141ddca'), "name"=>"Small Package", "type"=>"Golf", "length"=>48, "width"=>14, "height"=>12, "weight"=>42, "volume"=>8064, "updated_at"=>2022-11-03 06:58:08...
+MONGODB | db:27017 req:7 | app_development.insert | SUCCEEDED | 0.001s
+MONGODB | db:27017 req:8 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Large Package", "type"=>"Golf", "length"=>52, "width"=>16, "height"=>14, "weight"=>56}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x24b1c5b7c4b...
+MONGODB | db:27017 req:8 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:9 conn:1:1 sconn:6 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63636680c5501f000141ddcb'), "name"=>"Large Package", "type"=>"Golf", "length"=>52, "width"=>16, "height"=>14, "weight"=>56, "volume"=>11648, "updated_at"=>2022-11-03 06:58:0...
+MONGODB | db:27017 req:9 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:10 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Extra Large Package", "type"=>"Golf", "length"=>56, "width"=>18, "height"=>16, "weight"=>70}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x24b1c...
+MONGODB | db:27017 req:10 | app_development.find | SUCCEEDED | 0.001s
+MONGODB | db:27017 req:11 conn:1:1 sconn:6 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63636680c5501f000141ddcc'), "name"=>"Extra Large Package", "type"=>"Golf", "length"=>56, "width"=>18, "height"=>16, "weight"=>70, "volume"=>16128, "updated_at"=>2022-11-03 0...
+MONGODB | db:27017 req:11 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:12 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Carry On", "type"=>"Luggage", "length"=>25, "width"=>15, "height"=>7, "weight"=>25}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x24b1c5b7c4b745...
+MONGODB | db:27017 req:12 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:13 conn:1:1 sconn:6 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63636680c5501f000141ddcd'), "name"=>"Carry On", "type"=>"Luggage", "length"=>25, "width"=>15, "height"=>7, "weight"=>25, "volume"=>2625, "updated_at"=>2022-11-03 06:58:08.23...
+MONGODB | db:27017 req:13 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:14 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Checked Bag", "type"=>"Luggage", "length"=>26, "width"=>16, "height"=>22, "weight"=>50}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x24b1c5b7c4...
+MONGODB | db:27017 req:14 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:15 conn:1:1 sconn:6 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63636680c5501f000141ddce'), "name"=>"Checked Bag", "type"=>"Luggage", "length"=>26, "width"=>16, "height"=>22, "weight"=>50, "volume"=>9152, "updated_at"=>2022-11-03 06:58:0...
+MONGODB | db:27017 req:15 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:16 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Oversized Bag", "type"=>"Luggage", "length"=>41, "width"=>11, "height"=>24, "weight"=>72}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x24b1c5b7...
+MONGODB | db:27017 req:16 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:17 conn:1:1 sconn:6 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63636680c5501f000141ddcf'), "name"=>"Oversized Bag", "type"=>"Luggage", "length"=>41, "width"=>11, "height"=>24, "weight"=>72, "volume"=>10824, "updated_at"=>2022-11-03 06:5...
+MONGODB | db:27017 req:17 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:18 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Ski Bag", "type"=>"Ski", "length"=>72, "width"=>8, "height"=>10, "weight"=>25}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x24b1c5b7c4b7451c......
+MONGODB | db:27017 req:18 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:19 conn:1:1 sconn:6 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63636680c5501f000141ddd0'), "name"=>"Ski Bag", "type"=>"Ski", "length"=>72, "width"=>8, "height"=>10, "weight"=>25, "volume"=>5760, "updated_at"=>2022-11-03 06:58:08.2458666...
+MONGODB | db:27017 req:19 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:20 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Snowboard Bag", "type"=>"Ski", "length"=>62, "width"=>14, "height"=>8, "weight"=>25}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x24b1c5b7c4b74...
+MONGODB | db:27017 req:20 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:21 conn:1:1 sconn:6 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63636680c5501f000141ddd1'), "name"=>"Snowboard Bag", "type"=>"Ski", "length"=>62, "width"=>14, "height"=>8, "weight"=>25, "volume"=>6944, "updated_at"=>2022-11-03 06:58:08.2...
+MONGODB | db:27017 req:21 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:22 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Double Ski Bag", "type"=>"Ski", "length"=>80, "width"=>10, "height"=>12, "weight"=>40}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x24b1c5b7c4b...
+MONGODB | db:27017 req:22 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:23 conn:1:1 sconn:6 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63636680c5501f000141ddd2'), "name"=>"Double Ski Bag", "type"=>"Ski", "length"=>80, "width"=>10, "height"=>12, "weight"=>40, "volume"=>9600, "updated_at"=>2022-11-03 06:58:08...
+MONGODB | db:27017 req:23 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:24 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Double Snowboard Bag", "type"=>"Ski", "length"=>70, "width"=>14, "height"=>12, "weight"=>40}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x24b1c...
+MONGODB | db:27017 req:24 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:25 conn:1:1 sconn:6 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63636680c5501f000141ddd3'), "name"=>"Double Snowboard Bag", "type"=>"Ski", "length"=>70, "width"=>14, "height"=>12, "weight"=>40, "volume"=>11760, "updated_at"=>2022-11-03 0...
+MONGODB | db:27017 req:25 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:26 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Snowboot Bag", "type"=>"Ski", "length"=>25, "width"=>15, "height"=>7, "weight"=>25}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x24b1c5b7c4b745...
+MONGODB | db:27017 req:26 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:27 conn:1:1 sconn:6 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('63636680c5501f000141ddd4'), "name"=>"Snowboot Bag", "type"=>"Ski", "length"=>25, "width"=>15, "height"=>7, "weight"=>25, "volume"=>2625, "updated_at"=>2022-11-03 06:58:08.26...
+MONGODB | db:27017 req:27 | app_development.insert | SUCCEEDED | 0.000s
+Started GET "/api-docs/index.html" for 192.168.48.1 at 2022-11-03 06:58:23 +0000
+Started GET "/api-docs/swagger-ui.css" for 192.168.48.1 at 2022-11-03 06:58:23 +0000
+Started GET "/api-docs/swagger-ui-bundle.js" for 192.168.48.1 at 2022-11-03 06:58:23 +0000
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 192.168.48.1 at 2022-11-03 06:58:23 +0000
+Started GET "/api-docs/v1/swagger.yaml" for 192.168.48.1 at 2022-11-03 06:58:23 +0000
+Started GET "/api-docs/favicon-32x32.png" for 192.168.48.1 at 2022-11-03 06:58:23 +0000
+Started GET "/api-docs/index.html" for 192.168.48.1 at 2022-11-03 06:58:24 +0000
+Started GET "/api-docs/swagger-ui.css" for 192.168.48.1 at 2022-11-03 06:58:24 +0000
+Started GET "/api-docs/swagger-ui-bundle.js" for 192.168.48.1 at 2022-11-03 06:58:24 +0000
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 192.168.48.1 at 2022-11-03 06:58:24 +0000
+Started GET "/api-docs/v1/swagger.yaml" for 192.168.48.1 at 2022-11-03 06:58:24 +0000
+Started GET "/api-docs/favicon-32x32.png" for 192.168.48.1 at 2022-11-03 06:58:24 +0000
+Started GET "/api/v1/products" for 192.168.48.1 at 2022-11-03 06:58:30 +0000
+Processing by Api::V1::ProductsController#index as JSON
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:9 | app_development.find | STARTED | {"find"=>"products", "filter"=>{}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x18720 type=uuid data=0xda6c343860664351...>}}
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.001s
+Completed 200 OK in 45ms (Views: 17.2ms | MongoDB: 0.5ms | Allocations: 15745)
+
+
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | There was a change in the members of the 'Single' topology.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:12 | app_development.find | STARTED | {"find"=>"products", "filter"=>{}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x15360 type=uuid data=0x77a037f0b6f34112...>}}
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | There was a change in the members of the 'Single' topology.
+MONGODB | db:27017 req:28 conn:1:1 sconn:12 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>49}}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x15360 type=uuid data=0x77a037f0b6f34112...>}}
+MONGODB | db:27017 req:28 | app_development.find | SUCCEEDED | 0.001s
+MONGODB | db:27017 req:37 conn:1:1 sconn:12 | app_development.aggregate | STARTED | {"aggregate"=>"products", "pipeline"=>[{"$match"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}}}, {"$group"=>{"_id"=>1, "n"=>{"$sum"=>1}}}], "cursor"=>{}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x15360 type=uu...
+MONGODB | db:27017 req:37 | app_development.aggregate | SUCCEEDED | 0.008s
+MONGODB | db:27017 req:45 conn:1:1 sconn:12 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}}, "limit"=>1, "sort"=>{"volume"=>-1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x15360 type=uuid data=0x77a037f0b6f34112...>}}
+MONGODB | db:27017 req:45 | app_development.find | SUCCEEDED | 0.003s
+MONGODB | db:27017 req:47 conn:1:1 sconn:12 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}}, "limit"=>1, "sort"=>{"volume"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x15360 type=uuid data=0x77a037f0b6f34112...>}}
+MONGODB | db:27017 req:47 | app_development.find | SUCCEEDED | 0.001s
+MONGODB | db:27017 req:66 conn:1:1 sconn:12 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x15360 type=uuid data=0x77a037f0b6f34112......
+MONGODB | db:27017 req:66 | app_development.find | SUCCEEDED | 0.001s
+MONGODB | db:27017 req:68 conn:1:1 sconn:12 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>-1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x15360 type=uuid data=0x77a037f0b6f34112.....
+MONGODB | db:27017 req:68 | app_development.find | SUCCEEDED | 0.001s
+MONGODB | db:27017 req:75 conn:1:1 sconn:12 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>25}, "width"=>{"$gte"=>16}, "height"=>{"$gte"=>24}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x15360 type=uuid data=0x77a037f0b6f34112......
+MONGODB | db:27017 req:75 | app_development.find | SUCCEEDED | 0.001s
+MONGODB | db:27017 req:80 conn:1:1 sconn:12 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>25}, "width"=>{"$gte"=>16}, "height"=>{"$gte"=>20}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x15360 type=uuid data=0x77a037f0b6f34112......
+MONGODB | db:27017 req:80 | app_development.find | SUCCEEDED | 0.001s
+MONGODB | Error running awaited hello on db:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Connection timed out - Took more than 20 seconds to receive data (select call timed out) (for 192.168.48.2:27017 (no TLS)) (on db:27017)
+MONGODB | Error running awaited hello on db:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Connection timed out - Took more than 20 seconds to receive data (select call timed out) (for 192.168.48.2:27017 (no TLS)) (on db:27017)
+MONGODB | db:27017 req:963 conn:1:1 sconn:12 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>25}, "width"=>{"$gte"=>16}, "height"=>{"$gte"=>20}, "weight"=>{"$gte"=>40}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x950040 type=uuid d...
+MONGODB | db:27017 req:963 | app_development.find | SUCCEEDED | 0.012s
+Started GET "/api-docs/index.html" for 192.168.48.1 at 2022-11-03 15:58:51 +0000
+Started GET "/api-docs/swagger-ui.css" for 192.168.48.1 at 2022-11-03 15:58:51 +0000
+Started GET "/api-docs/swagger-ui-bundle.js" for 192.168.48.1 at 2022-11-03 15:58:51 +0000
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 192.168.48.1 at 2022-11-03 15:58:51 +0000
+Started GET "/api-docs/v1/swagger.yaml" for 192.168.48.1 at 2022-11-03 15:58:51 +0000
+Started GET "/api/v1/products/25/16/20/40" for 192.168.48.1 at 2022-11-03 15:59:30 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/products/25/16/20/40"):
+  
+Started GET "/api-docs/index.html" for 172.18.0.1 at 2022-11-03 16:16:39 +0000
+Started GET "/api-docs/swagger-ui.css" for 172.18.0.1 at 2022-11-03 16:16:39 +0000
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 172.18.0.1 at 2022-11-03 16:16:39 +0000
+Started GET "/api-docs/swagger-ui-bundle.js" for 172.18.0.1 at 2022-11-03 16:16:39 +0000
+Started GET "/api-docs/v1/swagger.yaml" for 172.18.0.1 at 2022-11-03 16:16:39 +0000
+Started GET "/api-docs/favicon-32x32.png" for 172.18.0.1 at 2022-11-03 16:16:39 +0000
+Started GET "/api/v1/products/1/1/1/1" for 172.18.0.1 at 2022-11-03 16:16:50 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"1", "width"=>"1", "height"=>"1", "weight"=>"1"}
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>1}, "width"=>{"$gte"=>1}, "height"=>{"$gte"=>1}, "weight"=>{"$gte"=>1}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x16900 type=uuid data=0...
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.001s
+Completed 204 No Content in 50ms (MongoDB: 0.9ms | Allocations: 13002)
+
+
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | There was a change in the members of the 'Single' topology.
+Started GET "/api/v1/products/1/1/1/1" for 172.18.0.1 at 2022-11-03 16:17:04 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"1", "width"=>"1", "height"=>"1", "weight"=>"1"}
+MONGODB | db:27017 req:8 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>1}, "width"=>{"$gte"=>1}, "height"=>{"$gte"=>1}, "weight"=>{"$gte"=>1}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x16900 type=uuid data=0...
+MONGODB | db:27017 req:8 | app_development.find | SUCCEEDED | 0.000s
+Completed 204 No Content in 3ms (MongoDB: 0.5ms | Allocations: 886)
+
+
+Started GET "/api-docs/index.html" for 172.18.0.1 at 2022-11-03 16:19:48 +0000
+Started GET "/api-docs/swagger-ui.css" for 172.18.0.1 at 2022-11-03 16:19:48 +0000
+Started GET "/api-docs/swagger-ui-bundle.js" for 172.18.0.1 at 2022-11-03 16:19:48 +0000
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 172.18.0.1 at 2022-11-03 16:19:48 +0000
+Started GET "/api-docs/v1/swagger.yaml" for 172.18.0.1 at 2022-11-03 16:19:48 +0000
+Started GET "/api-docs/favicon-32x32.png" for 172.18.0.1 at 2022-11-03 16:19:49 +0000
+Started GET "/api/v1/products/1/1/1/1" for 172.18.0.1 at 2022-11-03 16:19:59 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"1", "width"=>"1", "height"=>"1", "weight"=>"1"}
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>1}, "width"=>{"$gte"=>1}, "height"=>{"$gte"=>1}, "weight"=>{"$gte"=>1}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x16900 type=uuid data=0...
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.000s
+Completed 200 OK in 38ms (Views: 0.2ms | MongoDB: 0.4ms | Allocations: 13145)
+
+
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone' [awaited].
+MONGODB | There was a change in the members of the 'Single' topology.
+Started GET "/api/v1/products/47/13/12/40" for 172.18.0.1 at 2022-11-03 16:21:57 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"47", "width"=>"13", "height"=>"12", "weight"=>"40"}
+MONGODB | db:27017 req:18 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>47}, "width"=>{"$gte"=>13}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>40}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x16900 type=uuid da...
+MONGODB | db:27017 req:18 | app_development.find | SUCCEEDED | 0.000s
+Completed 200 OK in 3ms (Views: 0.1ms | MongoDB: 0.4ms | Allocations: 932)
+
+
+Started GET "/api/v1/products/47/13/12/40" for 172.18.0.1 at 2022-11-03 16:21:59 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"47", "width"=>"13", "height"=>"12", "weight"=>"40"}
+MONGODB | db:27017 req:20 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>47}, "width"=>{"$gte"=>13}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>40}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x16900 type=uuid da...
+MONGODB | db:27017 req:20 | app_development.find | SUCCEEDED | 0.001s
+Completed 200 OK in 3ms (Views: 0.1ms | MongoDB: 0.6ms | Allocations: 906)
+
+
+Started GET "/api/v1/products/47/13/12/40" for 172.18.0.1 at 2022-11-03 16:22:00 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"47", "width"=>"13", "height"=>"12", "weight"=>"40"}
+MONGODB | db:27017 req:21 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>47}, "width"=>{"$gte"=>13}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>40}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x16900 type=uuid da...
+MONGODB | db:27017 req:21 | app_development.find | SUCCEEDED | 0.000s
+Completed 200 OK in 3ms (Views: 0.1ms | MongoDB: 0.5ms | Allocations: 906)
+
+
+Started GET "/api-docs/index.html" for 172.18.0.1 at 2022-11-03 16:22:27 +0000
+Started GET "/api-docs/swagger-ui.css" for 172.18.0.1 at 2022-11-03 16:22:27 +0000
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 172.18.0.1 at 2022-11-03 16:22:27 +0000
+Started GET "/api-docs/swagger-ui-bundle.js" for 172.18.0.1 at 2022-11-03 16:22:27 +0000
+Started GET "/api-docs/v1/swagger.yaml" for 172.18.0.1 at 2022-11-03 16:22:27 +0000
+Started GET "/api-docs/favicon-32x32.png" for 172.18.0.1 at 2022-11-03 16:22:27 +0000
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 16:22:58 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | db:27017 req:27 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x16900 type=uuid da...
+MONGODB | db:27017 req:27 | app_development.find | SUCCEEDED | 0.001s
+Completed 200 OK in 4ms (Views: 0.1ms | MongoDB: 0.6ms | Allocations: 904)
+
+
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 16:23:43 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11260 type=uuid da...
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.001s
+Completed 200 OK in 47ms (Views: 0.2ms | MongoDB: 0.6ms | Allocations: 13172)
+
+
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | There was a change in the members of the 'Single' topology.
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 16:23:57 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | db:27017 req:8 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11260 type=uuid da...
+MONGODB | db:27017 req:8 | app_development.find | SUCCEEDED | 0.000s
+Completed 200 OK in 4ms (Views: 0.1ms | MongoDB: 0.5ms | Allocations: 933)
+
+
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 16:24:04 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | db:27017 req:10 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11260 type=uuid da...
+MONGODB | db:27017 req:10 | app_development.find | SUCCEEDED | 0.001s
+Completed 200 OK in 4ms (Views: 0.1ms | MongoDB: 0.6ms | Allocations: 907)
+
+
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 16:24:45 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11280 type=uuid da...
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.000s
+Completed 200 OK in 39ms (Views: 0.3ms | MongoDB: 0.4ms | Allocations: 13172)
+
+
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | There was a change in the members of the 'Single' topology.
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 16:25:32 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11260 type=uuid da...
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.000s
+Completed 200 OK in 40ms (Views: 0.2ms | MongoDB: 0.4ms | Allocations: 13197)
+
+
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone' [awaited].
+MONGODB | There was a change in the members of the 'Single' topology.
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 16:26:09 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11260 type=uuid da...
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.000s
+Completed 200 OK in 37ms (Views: 0.2ms | MongoDB: 0.3ms | Allocations: 13197)
+
+
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone' [awaited].
+MONGODB | There was a change in the members of the 'Single' topology.
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 16:26:57 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11280 type=uuid da...
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.001s
+Completed 200 OK in 47ms (Views: 0.4ms | MongoDB: 0.5ms | Allocations: 13200)
+
+
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | There was a change in the members of the 'Single' topology.
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 16:27:48 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11260 type=uuid da...
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.000s
+Completed 200 OK in 42ms (Views: 0.3ms | MongoDB: 0.4ms | Allocations: 13202)
+
+
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | There was a change in the members of the 'Single' topology.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x33920 type=uuid da...
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone' [awaited].
+MONGODB | There was a change in the members of the 'Single' topology.
+MONGODB | db:27017 req:9 conn:1:1 sconn:6 | app_development.aggregate | STARTED | {"aggregate"=>"products", "pipeline"=>[{"$match"=>{}}, {"$group"=>{"_id"=>1, "n"=>{"$sum"=>1}}}], "cursor"=>{}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x33920 type=uuid data=0x1bbe3d6922944fae...>}}
+MONGODB | db:27017 req:9 | app_development.aggregate | SUCCEEDED | 0.001s
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 16:31:28 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | db:27017 req:28 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11260 type=uuid da...
+MONGODB | db:27017 req:28 | app_development.find | SUCCEEDED | 0.001s
+Completed 500 Internal Server Error in 22ms (MongoDB: 0.7ms | Allocations: 8360)
+
+
+  
+NoMethodError (undefined method `save' for nil:NilClass
+
+    if @product.save
+               ^^^^^):
+  
+app/controllers/api/v1/products_controller.rb:26:in `show_best_fit'
+MONGODB | Error running awaited hello on db:27017: Mongo::Error::SocketError: EOFError: end of file reached (for 172.18.0.2:27017 (no TLS)) (on db:27017)
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Small Package", "type"=>"Golf", "length"=>48, "width"=>14, "height"=>12, "weight"=>42}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x62b1cc6d2bc...
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.001s
+MONGODB | db:27017 req:7 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('6363ecfad915c40001481df0'), "name"=>"Small Package", "type"=>"Golf", "length"=>48, "width"=>14, "height"=>12, "weight"=>42, "volume"=>8064, "updated_at"=>2022-11-03 16:31:54...
+MONGODB | db:27017 req:7 | app_development.insert | SUCCEEDED | 0.015s
+MONGODB | db:27017 req:8 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Large Package", "type"=>"Golf", "length"=>52, "width"=>16, "height"=>14, "weight"=>56}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x62b1cc6d2bc...
+MONGODB | db:27017 req:8 | app_development.find | SUCCEEDED | 0.002s
+MONGODB | db:27017 req:9 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('6363ecfad915c40001481df1'), "name"=>"Large Package", "type"=>"Golf", "length"=>52, "width"=>16, "height"=>14, "weight"=>56, "volume"=>11648, "updated_at"=>2022-11-03 16:31:5...
+MONGODB | db:27017 req:9 | app_development.insert | SUCCEEDED | 0.001s
+MONGODB | db:27017 req:10 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Extra Large Package", "type"=>"Golf", "length"=>56, "width"=>18, "height"=>16, "weight"=>70}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x62b1c...
+MONGODB | db:27017 req:10 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:11 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('6363ecfad915c40001481df2'), "name"=>"Extra Large Package", "type"=>"Golf", "length"=>56, "width"=>18, "height"=>16, "weight"=>70, "volume"=>16128, "updated_at"=>2022-11-03 1...
+MONGODB | db:27017 req:11 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:12 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Carry On", "type"=>"Luggage", "length"=>25, "width"=>15, "height"=>7, "weight"=>25}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x62b1cc6d2bc448...
+MONGODB | db:27017 req:12 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:13 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('6363ecfad915c40001481df3'), "name"=>"Carry On", "type"=>"Luggage", "length"=>25, "width"=>15, "height"=>7, "weight"=>25, "volume"=>2625, "updated_at"=>2022-11-03 16:31:54.60...
+MONGODB | db:27017 req:13 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:14 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Checked Bag", "type"=>"Luggage", "length"=>26, "width"=>16, "height"=>22, "weight"=>50}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x62b1cc6d2b...
+MONGODB | db:27017 req:14 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:15 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('6363ecfad915c40001481df4'), "name"=>"Checked Bag", "type"=>"Luggage", "length"=>26, "width"=>16, "height"=>22, "weight"=>50, "volume"=>9152, "updated_at"=>2022-11-03 16:31:5...
+MONGODB | db:27017 req:15 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:16 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Oversized Bag", "type"=>"Luggage", "length"=>41, "width"=>11, "height"=>24, "weight"=>72}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x62b1cc6d...
+MONGODB | db:27017 req:16 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:17 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('6363ecfad915c40001481df5'), "name"=>"Oversized Bag", "type"=>"Luggage", "length"=>41, "width"=>11, "height"=>24, "weight"=>72, "volume"=>10824, "updated_at"=>2022-11-03 16:3...
+MONGODB | db:27017 req:17 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:18 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Ski Bag", "type"=>"Ski", "length"=>72, "width"=>8, "height"=>10, "weight"=>25}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x62b1cc6d2bc44809......
+MONGODB | db:27017 req:18 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:19 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('6363ecfad915c40001481df6'), "name"=>"Ski Bag", "type"=>"Ski", "length"=>72, "width"=>8, "height"=>10, "weight"=>25, "volume"=>5760, "updated_at"=>2022-11-03 16:31:54.6134151...
+MONGODB | db:27017 req:19 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:20 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Snowboard Bag", "type"=>"Ski", "length"=>62, "width"=>14, "height"=>8, "weight"=>25}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x62b1cc6d2bc44...
+MONGODB | db:27017 req:20 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:21 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('6363ecfad915c40001481df7'), "name"=>"Snowboard Bag", "type"=>"Ski", "length"=>62, "width"=>14, "height"=>8, "weight"=>25, "volume"=>6944, "updated_at"=>2022-11-03 16:31:54.6...
+MONGODB | db:27017 req:21 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:22 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Double Ski Bag", "type"=>"Ski", "length"=>80, "width"=>10, "height"=>12, "weight"=>40}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x62b1cc6d2bc...
+MONGODB | db:27017 req:22 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:23 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('6363ecfad915c40001481df8'), "name"=>"Double Ski Bag", "type"=>"Ski", "length"=>80, "width"=>10, "height"=>12, "weight"=>40, "volume"=>9600, "updated_at"=>2022-11-03 16:31:54...
+MONGODB | db:27017 req:23 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:24 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Double Snowboard Bag", "type"=>"Ski", "length"=>70, "width"=>14, "height"=>12, "weight"=>40}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x62b1c...
+MONGODB | db:27017 req:24 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:25 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('6363ecfad915c40001481df9'), "name"=>"Double Snowboard Bag", "type"=>"Ski", "length"=>70, "width"=>14, "height"=>12, "weight"=>40, "volume"=>11760, "updated_at"=>2022-11-03 1...
+MONGODB | db:27017 req:25 | app_development.insert | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:26 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"name"=>"Snowboot Bag", "type"=>"Ski", "length"=>25, "width"=>15, "height"=>7, "weight"=>25}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x9320 type=uuid data=0x62b1cc6d2bc448...
+MONGODB | db:27017 req:26 | app_development.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 req:27 conn:1:1 sconn:3 | app_development.insert | STARTED | {"insert"=>"products", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('6363ecfad915c40001481dfa'), "name"=>"Snowboot Bag", "type"=>"Ski", "length"=>25, "width"=>15, "height"=>7, "weight"=>25, "volume"=>2625, "updated_at"=>2022-11-03 16:31:54.63...
+MONGODB | db:27017 req:27 | app_development.insert | SUCCEEDED | 0.000s
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 16:32:15 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11260 type=uuid da...
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 44ms (Views: 0.7ms | MongoDB: 1.3ms | Allocations: 13701)
+
+
+Started GET "/api/v1/products/48/14/123131/42" for 172.18.0.1 at 2022-11-03 16:32:21 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"123131", "weight"=>"42"}
+MONGODB | db:27017 req:7 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11260 type=uuid da...
+MONGODB | db:27017 req:7 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 5ms (Views: 0.4ms | MongoDB: 0.7ms | Allocations: 1172)
+
+
+Started GET "/api/v1/products/48/14/123131/42" for 172.18.0.1 at 2022-11-03 16:32:22 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"123131", "weight"=>"42"}
+MONGODB | db:27017 req:8 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11260 type=uuid da...
+MONGODB | db:27017 req:8 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 4ms (Views: 0.4ms | MongoDB: 0.7ms | Allocations: 1146)
+
+
+Started GET "/api/v1/products/48/14/123131/42" for 172.18.0.1 at 2022-11-03 16:32:24 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"123131", "weight"=>"42"}
+MONGODB | db:27017 req:9 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11260 type=uuid da...
+MONGODB | db:27017 req:9 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 5ms (Views: 0.6ms | MongoDB: 0.7ms | Allocations: 1146)
+
+
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | There was a change in the members of the 'Single' topology.
+Started GET "/api/v1/products/48/14/123131/4211" for 172.18.0.1 at 2022-11-03 16:32:42 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"123131", "weight"=>"4211"}
+MONGODB | db:27017 req:12 conn:1:1 sconn:6 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11260 type=uuid da...
+MONGODB | db:27017 req:12 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 4ms (Views: 0.5ms | MongoDB: 0.6ms | Allocations: 1146)
+
+
+Started GET "/api/v1/products/48/14/123131/4211" for 172.18.0.1 at 2022-11-03 16:33:45 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"123131", "weight"=>"4211"}
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>123131}, "weight"=>{"$gte"=>4211}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11280 type=u...
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.001s
+Completed 500 Internal Server Error in 46ms (MongoDB: 1.3ms | Allocations: 14173)
+
+
+  
+NoMethodError (undefined method `errors' for nil:NilClass
+
+      render json: @product.errors, status: :not_found
+                           ^^^^^^^):
+  
+app/controllers/api/v1/products_controller.rb:29:in `show_best_fit'
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | There was a change in the members of the 'Single' topology.
+Started GET "/api/v1/products/48/14/123131/4211" for 172.18.0.1 at 2022-11-03 16:34:47 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"123131", "weight"=>"4211"}
+MONGODB | db:27017 req:13 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>123131}, "weight"=>{"$gte"=>4211}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11280 type=u...
+MONGODB | db:27017 req:13 | app_development.find | SUCCEEDED | 0.001s
+Completed 404 Not Found in 23ms (Views: 0.4ms | MongoDB: 0.9ms | Allocations: 7419)
+
+
+Started GET "/api/v1/products/48/14/123131/4211" for 172.18.0.1 at 2022-11-03 16:36:22 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"123131", "weight"=>"4211"}
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>123131}, "weight"=>{"$gte"=>4211}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11280 type=u...
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.001s
+Completed 404 Not Found in 43ms (Views: 0.3ms | MongoDB: 1.1ms | Allocations: 13127)
+
+
+Started GET "/api/v1/products/48/14/123131/4211" for 172.18.0.1 at 2022-11-03 16:36:24 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"123131", "weight"=>"4211"}
+MONGODB | db:27017 req:7 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>123131}, "weight"=>{"$gte"=>4211}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11280 type=u...
+MONGODB | db:27017 req:7 | app_development.find | SUCCEEDED | 0.001s
+Completed 404 Not Found in 4ms (Views: 0.1ms | MongoDB: 0.6ms | Allocations: 915)
+
+
+Started GET "/api/v1/products/48/14/123131/4211" for 172.18.0.1 at 2022-11-03 16:36:25 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"123131", "weight"=>"4211"}
+MONGODB | db:27017 req:8 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>123131}, "weight"=>{"$gte"=>4211}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11280 type=u...
+MONGODB | db:27017 req:8 | app_development.find | SUCCEEDED | 0.001s
+Completed 404 Not Found in 4ms (Views: 0.1ms | MongoDB: 0.6ms | Allocations: 889)
+
+
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | There was a change in the members of the 'Single' topology.
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 16:36:36 +0000
+Processing by Api::V1::ProductsController#show_best_fit as JSON
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | db:27017 req:10 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11280 type=uuid da...
+MONGODB | db:27017 req:10 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 5ms (Views: 0.7ms | MongoDB: 0.8ms | Allocations: 1489)
+
+
+Started GET "/" for 172.18.0.1 at 2022-11-03 16:59:22 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.6ms | Allocations: 517)
+Completed 200 OK in 28ms (Views: 15.0ms | MongoDB: 0.0ms | Allocations: 2539)
+
+
+Started GET "/" for 172.18.0.1 at 2022-11-03 17:03:54 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.7ms | Allocations: 517)
+Completed 200 OK in 18ms (Views: 10.1ms | MongoDB: 0.0ms | Allocations: 2538)
+
+
+Started OPTIONS "/api/v1/products/[object%20Object]/undefined/undefined/undefined" for 172.18.0.1 at 2022-11-03 18:16:12 +0000
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/api/v1/products/[object%20Object]/undefined/undefined/undefined"):
+  
+Started OPTIONS "/api/v1/products/12/20/20/30" for 172.18.0.1 at 2022-11-03 18:17:04 +0000
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/api/v1/products/12/20/20/30"):
+  
+Started OPTIONS "/api/v1/products/12/3/12/123" for 172.18.0.1 at 2022-11-03 18:19:13 +0000
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/api/v1/products/12/3/12/123"):
+  
+Started GET "/api/v1/products/1/2/5/4" for 172.18.0.1 at 2022-11-03 18:19:48 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"1", "width"=>"2", "height"=>"5", "weight"=>"4"}
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>1}, "width"=>{"$gte"=>2}, "height"=>{"$gte"=>5}, "weight"=>{"$gte"=>4}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11540 type=uuid data=0...
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.008s
+Completed 302 Found in 148ms (Views: 5.6ms | MongoDB: 8.0ms | Allocations: 11627)
+
+
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | There was a change in the members of the 'Single' topology.
+Started OPTIONS "/api/v1/products/12/23/10/20" for 172.18.0.1 at 2022-11-03 18:21:17 +0000
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/api/v1/products/12/23/10/20"):
+  
+Started GET "/api/v1/products/12/31/15/12" for 172.18.0.1 at 2022-11-03 18:21:59 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"12", "width"=>"31", "height"=>"15", "weight"=>"12"}
+MONGODB | db:27017 req:20 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>12}, "width"=>{"$gte"=>31}, "height"=>{"$gte"=>15}, "weight"=>{"$gte"=>12}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11540 type=uuid da...
+MONGODB | db:27017 req:20 | app_development.find | SUCCEEDED | 0.001s
+Completed 404 Not Found in 8ms (Views: 0.3ms | MongoDB: 1.0ms | Allocations: 922)
+
+
+Started GET "/api/v1/products/12/12/23/12" for 172.18.0.1 at 2022-11-03 18:22:57 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"12", "width"=>"12", "height"=>"23", "weight"=>"12"}
+MONGODB | db:27017 req:26 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>12}, "width"=>{"$gte"=>12}, "height"=>{"$gte"=>23}, "weight"=>{"$gte"=>12}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11540 type=uuid da...
+MONGODB | db:27017 req:26 | app_development.find | SUCCEEDED | 0.001s
+Completed 404 Not Found in 6ms (Views: 0.2ms | MongoDB: 0.9ms | Allocations: 893)
+
+
+Started GET "/api/v1/products/1/2/1/21" for 172.18.0.1 at 2022-11-03 18:24:00 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"1", "width"=>"2", "height"=>"1", "weight"=>"21"}
+MONGODB | db:27017 req:34 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>1}, "width"=>{"$gte"=>2}, "height"=>{"$gte"=>1}, "weight"=>{"$gte"=>21}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11540 type=uuid data=...
+MONGODB | db:27017 req:34 | app_development.find | SUCCEEDED | 0.002s
+Completed 302 Found in 14ms (Views: 2.6ms | MongoDB: 1.8ms | Allocations: 1152)
+
+
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 18:27:36 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | db:27017 req:56 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11540 type=uuid da...
+MONGODB | db:27017 req:56 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 5ms (Views: 0.8ms | MongoDB: 1.0ms | Allocations: 1140)
+
+
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 18:27:51 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | db:27017 req:59 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11540 type=uuid da...
+MONGODB | db:27017 req:59 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 4ms (Views: 0.5ms | MongoDB: 0.6ms | Allocations: 1150)
+
+
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 18:28:58 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | db:27017 req:66 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11540 type=uuid da...
+MONGODB | db:27017 req:66 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 4ms (Views: 0.4ms | MongoDB: 1.1ms | Allocations: 1150)
+
+
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 18:29:30 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | db:27017 req:71 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11540 type=uuid da...
+MONGODB | db:27017 req:71 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 3ms (Views: 0.4ms | MongoDB: 0.6ms | Allocations: 1149)
+
+
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 18:31:52 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | db:27017 req:86 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11540 type=uuid da...
+MONGODB | db:27017 req:86 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 4ms (Views: 0.4ms | MongoDB: 0.6ms | Allocations: 1149)
+
+
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 18:31:59 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | db:27017 req:88 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11540 type=uuid da...
+MONGODB | db:27017 req:88 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 4ms (Views: 0.5ms | MongoDB: 0.6ms | Allocations: 1149)
+
+
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 18:33:14 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | db:27017 req:96 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11540 type=uuid da...
+MONGODB | db:27017 req:96 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 4ms (Views: 0.4ms | MongoDB: 0.8ms | Allocations: 1149)
+
+
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 18:33:18 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | db:27017 req:98 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11540 type=uuid da...
+MONGODB | db:27017 req:98 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 5ms (Views: 0.4ms | MongoDB: 0.8ms | Allocations: 1149)
+
+
+Started OPTIONS "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 18:35:37 +0000
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/api/v1/products/48/14/12/42"):
+  
+Started OPTIONS "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 18:35:48 +0000
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/api/v1/products/48/14/12/42"):
+  
+Started OPTIONS "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 18:35:49 +0000
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/api/v1/products/48/14/12/42"):
+  
+Started OPTIONS "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 18:38:59 +0000
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/api/v1/products/48/14/12/42"):
+  
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 18:44:04 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42", "product"=>{}}
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server db:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[db:27017] servers=[#<Server address=db:27017 UNKNOWN>]>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | db:27017 req:6 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11300 type=uuid da...
+MONGODB | db:27017 req:6 | app_development.find | SUCCEEDED | 0.002s
+Completed 302 Found in 97ms (Views: 1.3ms | MongoDB: 2.0ms | Allocations: 8327)
+
+
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone' [awaited].
+MONGODB | There was a change in the members of the 'Single' topology.
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 18:44:34 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | db:27017 req:10 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11300 type=uuid da...
+MONGODB | db:27017 req:10 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 3ms (Views: 0.4ms | MongoDB: 0.6ms | Allocations: 1168)
+
+
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 18:44:54 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | db:27017 req:12 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11300 type=uuid da...
+MONGODB | db:27017 req:12 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 3ms (Views: 0.4ms | MongoDB: 0.6ms | Allocations: 1152)
+
+
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 18:46:22 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | db:27017 req:22 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11300 type=uuid da...
+MONGODB | db:27017 req:22 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 4ms (Views: 0.4ms | MongoDB: 0.6ms | Allocations: 1149)
+
+
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 18:46:57 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | db:27017 req:27 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11300 type=uuid da...
+MONGODB | db:27017 req:27 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 4ms (Views: 0.6ms | MongoDB: 0.6ms | Allocations: 1149)
+
+
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 18:55:23 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | db:27017 req:78 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11300 type=uuid da...
+MONGODB | db:27017 req:78 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 4ms (Views: 0.4ms | MongoDB: 0.6ms | Allocations: 1152)
+
+
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 18:56:32 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | db:27017 req:86 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11300 type=uuid da...
+MONGODB | db:27017 req:86 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 3ms (Views: 0.4ms | MongoDB: 0.6ms | Allocations: 1149)
+
+
+Started GET "/api/v1/products/2313/1231/123/1231" for 172.18.0.1 at 2022-11-03 18:57:02 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"2313", "width"=>"1231", "height"=>"123", "weight"=>"1231"}
+MONGODB | db:27017 req:90 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>2313}, "width"=>{"$gte"=>1231}, "height"=>{"$gte"=>123}, "weight"=>{"$gte"=>1231}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11300 type=...
+MONGODB | db:27017 req:90 | app_development.find | SUCCEEDED | 0.001s
+Completed 404 Not Found in 4ms (Views: 0.1ms | MongoDB: 0.8ms | Allocations: 899)
+
+
+Started GET "/api/v1/products/2313/1231/123/1231" for 172.18.0.1 at 2022-11-03 18:57:12 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"2313", "width"=>"1231", "height"=>"123", "weight"=>"1231"}
+MONGODB | db:27017 req:92 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>2313}, "width"=>{"$gte"=>1231}, "height"=>{"$gte"=>123}, "weight"=>{"$gte"=>1231}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11300 type=...
+MONGODB | db:27017 req:92 | app_development.find | SUCCEEDED | 0.001s
+Completed 404 Not Found in 4ms (Views: 0.1ms | MongoDB: 0.8ms | Allocations: 889)
+
+
+Started GET "/api/v1/products/12/23/12/3" for 172.18.0.1 at 2022-11-03 18:58:50 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"12", "width"=>"23", "height"=>"12", "weight"=>"3"}
+MONGODB | db:27017 req:103 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>12}, "width"=>{"$gte"=>23}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>3}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11300 type=uuid dat...
+MONGODB | db:27017 req:103 | app_development.find | SUCCEEDED | 0.001s
+Completed 404 Not Found in 3ms (Views: 0.2ms | MongoDB: 0.6ms | Allocations: 889)
+
+
+Started GET "/api/v1/products/231/2412/1231/1231" for 172.18.0.1 at 2022-11-03 19:00:56 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"231", "width"=>"2412", "height"=>"1231", "weight"=>"1231"}
+MONGODB | db:27017 req:117 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>231}, "width"=>{"$gte"=>2412}, "height"=>{"$gte"=>1231}, "weight"=>{"$gte"=>1231}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11300 type=...
+MONGODB | db:27017 req:117 | app_development.find | SUCCEEDED | 0.001s
+Completed 404 Not Found in 3ms (Views: 0.1ms | MongoDB: 0.6ms | Allocations: 889)
+
+
+Started GET "/api/v1/products/1231/1231/128/1231" for 172.18.0.1 at 2022-11-03 19:02:23 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"1231", "width"=>"1231", "height"=>"128", "weight"=>"1231"}
+MONGODB | db:27017 req:126 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>1231}, "width"=>{"$gte"=>1231}, "height"=>{"$gte"=>128}, "weight"=>{"$gte"=>1231}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11300 type=...
+MONGODB | db:27017 req:126 | app_development.find | SUCCEEDED | 0.001s
+Completed 404 Not Found in 4ms (Views: 0.1ms | MongoDB: 0.6ms | Allocations: 891)
+
+
+Started GET "/api/v1/products/1231/1231/1217/1231" for 172.18.0.1 at 2022-11-03 19:02:59 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"1231", "width"=>"1231", "height"=>"1217", "weight"=>"1231"}
+MONGODB | db:27017 req:131 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>1231}, "width"=>{"$gte"=>1231}, "height"=>{"$gte"=>1217}, "weight"=>{"$gte"=>1231}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11300 type...
+MONGODB | db:27017 req:131 | app_development.find | SUCCEEDED | 0.001s
+Completed 404 Not Found in 4ms (Views: 0.1ms | MongoDB: 0.6ms | Allocations: 889)
+
+
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 19:23:11 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | db:27017 req:225 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11300 type=uuid da...
+MONGODB | db:27017 req:225 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 9ms (Views: 1.0ms | MongoDB: 1.4ms | Allocations: 1150)
+
+
+Started GET "/api/v1/products/13/123/12/123" for 172.18.0.1 at 2022-11-03 19:23:52 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"13", "width"=>"123", "height"=>"12", "weight"=>"123"}
+MONGODB | db:27017 req:230 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>13}, "width"=>{"$gte"=>123}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>123}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11300 type=uuid ...
+MONGODB | db:27017 req:230 | app_development.find | SUCCEEDED | 0.001s
+Completed 404 Not Found in 3ms (Views: 0.1ms | MongoDB: 0.6ms | Allocations: 889)
+
+
+Started GET "/api/v1/products/1/2/1/123" for 172.18.0.1 at 2022-11-03 19:24:34 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"1", "width"=>"2", "height"=>"1", "weight"=>"123"}
+MONGODB | db:27017 req:236 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>1}, "width"=>{"$gte"=>2}, "height"=>{"$gte"=>1}, "weight"=>{"$gte"=>123}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11300 type=uuid data...
+MONGODB | db:27017 req:236 | app_development.find | SUCCEEDED | 0.001s
+Completed 404 Not Found in 3ms (Views: 0.1ms | MongoDB: 0.6ms | Allocations: 890)
+
+
+Started GET "/api/v1/products/48/14/12/42" for 172.18.0.1 at 2022-11-03 19:25:19 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"48", "width"=>"14", "height"=>"12", "weight"=>"42"}
+MONGODB | db:27017 req:241 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>48}, "width"=>{"$gte"=>14}, "height"=>{"$gte"=>12}, "weight"=>{"$gte"=>42}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x11300 type=uuid da...
+MONGODB | db:27017 req:241 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 4ms (Views: 0.4ms | MongoDB: 0.8ms | Allocations: 1150)
+
+
+MONGODB | Error running awaited hello on db:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Connection timed out - Took more than 20 seconds to receive data (select call timed out) (for 172.18.0.2:27017 (no TLS)) (on db:27017)
+Started GET "/api/v1/products/1/2/3/4" for 172.18.0.1 at 2022-11-03 23:00:32 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"1", "width"=>"2", "height"=>"3", "weight"=>"4"}
+MONGODB | db:27017 req:1097 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>1}, "width"=>{"$gte"=>2}, "height"=>{"$gte"=>3}, "weight"=>{"$gte"=>4}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x39400 type=uuid data=0...
+MONGODB | db:27017 req:1097 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 8ms (Views: 1.2ms | MongoDB: 1.2ms | Allocations: 1176)
+
+
+Started GET "/api/v1/products/1/2/3/4" for 172.18.0.1 at 2022-11-03 23:01:54 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"1", "width"=>"2", "height"=>"3", "weight"=>"4"}
+MONGODB | db:27017 req:1106 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>1}, "width"=>{"$gte"=>2}, "height"=>{"$gte"=>3}, "weight"=>{"$gte"=>4}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x39400 type=uuid data=0...
+MONGODB | db:27017 req:1106 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 4ms (Views: 0.7ms | MongoDB: 0.7ms | Allocations: 1150)
+
+
+Started GET "/api/v1/products/1/2/3/4" for 172.18.0.1 at 2022-11-03 23:06:05 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"1", "width"=>"2", "height"=>"3", "weight"=>"4"}
+MONGODB | db:27017 req:1132 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>1}, "width"=>{"$gte"=>2}, "height"=>{"$gte"=>3}, "weight"=>{"$gte"=>4}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x39400 type=uuid data=0...
+MONGODB | db:27017 req:1132 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 4ms (Views: 0.4ms | MongoDB: 1.1ms | Allocations: 1149)
+
+
+Started GET "/api/v1/products/1/2/3/4" for 172.18.0.1 at 2022-11-03 23:08:49 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"1", "width"=>"2", "height"=>"3", "weight"=>"4"}
+MONGODB | db:27017 req:1149 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>1}, "width"=>{"$gte"=>2}, "height"=>{"$gte"=>3}, "weight"=>{"$gte"=>4}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x39400 type=uuid data=0...
+MONGODB | db:27017 req:1149 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 4ms (Views: 0.4ms | MongoDB: 0.6ms | Allocations: 1149)
+
+
+Started GET "/api/v1/products/1/2/3/4" for 172.18.0.1 at 2022-11-03 23:10:33 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"1", "width"=>"2", "height"=>"3", "weight"=>"4"}
+MONGODB | db:27017 req:1161 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>1}, "width"=>{"$gte"=>2}, "height"=>{"$gte"=>3}, "weight"=>{"$gte"=>4}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x39400 type=uuid data=0...
+MONGODB | db:27017 req:1161 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 5ms (Views: 0.5ms | MongoDB: 0.8ms | Allocations: 1149)
+
+
+Started GET "/api/v1/products/1/2/3/4" for 172.18.0.1 at 2022-11-03 23:13:17 +0000
+Processing by Api::V1::ProductsController#show_best_fit as */*
+  Parameters: {"length"=>"1", "width"=>"2", "height"=>"3", "weight"=>"4"}
+MONGODB | db:27017 req:1178 conn:1:1 sconn:3 | app_development.find | STARTED | {"find"=>"products", "filter"=>{"length"=>{"$gte"=>1}, "width"=>{"$gte"=>2}, "height"=>{"$gte"=>3}, "weight"=>{"$gte"=>4}}, "limit"=>1, "sort"=>{"volume"=>1, "weight"=>1}, "$db"=>"app_development", "lsid"=>{"id"=><BSON::Binary:0x39400 type=uuid data=0...
+MONGODB | db:27017 req:1178 | app_development.find | SUCCEEDED | 0.001s
+Completed 302 Found in 5ms (Views: 0.4ms | MongoDB: 0.7ms | Allocations: 1149)
+
+

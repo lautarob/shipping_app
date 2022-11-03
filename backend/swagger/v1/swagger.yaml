@@ -1,0 +1,230 @@
+---
+openapi: 3.0.1
+info:
+  title: API V1
+  version: v1
+paths:
+  "/api/v1/products":
+    get:
+      summary: list products
+      responses:
+        '200':
+          description: successful
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  collection:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        _id:
+                          type: string
+                        created_at:
+                          type: string
+                        updated_at:
+                          type: string
+                        name:
+                          type: string
+                        type:
+                          type: string
+                        length:
+                          type: integer
+                        width:
+                          type: integer
+                        height:
+                          type: integer
+                        weight:
+                          type: integer
+    post:
+      summary: create product
+      parameters: []
+      responses:
+        '201':
+          description: product created
+        '422':
+          description: invalid request
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                type:
+                  type: string
+                length:
+                  type: integer
+                width:
+                  type: integer
+                height:
+                  type: integer
+                weight:
+                  type: integer
+              required:
+              - name
+              - type
+              - length
+              - width
+              - height
+              - weight
+  "/api/v1/products/{id}":
+    get:
+      summary: show product
+      parameters:
+      - name: id
+        in: path
+        description: id
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: product found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  _id:
+                    type: string
+                  created_at:
+                    type: string
+                  updated_at:
+                    type: string
+                  name:
+                    type: string
+                  type:
+                    type: string
+                  length:
+                    type: integer
+                  width:
+                    type: integer
+                  height:
+                    type: integer
+                  weight:
+                    type: integer
+                required:
+                - id
+                - name
+                - type
+                - length
+                - width
+                - height
+                - weight
+        '404':
+          description: product not found
+    patch:
+      summary: update product
+      parameters:
+      - name: id
+        in: path
+        description: id
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: updated product successfully
+        '404':
+          description: product not found
+    put:
+      summary: update product
+      parameters:
+      - name: id
+        in: path
+        description: id
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: updated product successfully
+        '404':
+          description: product not found
+    delete:
+      summary: delete product
+      parameters:
+      - name: id
+        in: path
+        description: id
+        required: true
+        schema:
+          type: string
+      responses:
+        '204':
+          description: no content
+        '404':
+          description: no product found
+  "/api/v1/products/{length}/{width}/{height}/{weight}":
+    get:
+      summary: show product best fit
+      parameters:
+      - name: length
+        in: path
+        description: length
+        required: true
+        schema:
+          type: string
+      - name: width
+        in: path
+        description: width
+        required: true
+        schema:
+          type: string
+      - name: height
+        in: path
+        description: height
+        required: true
+        schema:
+          type: string
+      - name: weight
+        in: path
+        description: weight
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: product found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  _id:
+                    type: string
+                  created_at:
+                    type: string
+                  updated_at:
+                    type: string
+                  name:
+                    type: string
+                  type:
+                    type: string
+                  length:
+                    type: integer
+                  width:
+                    type: integer
+                  height:
+                    type: integer
+                  weight:
+                    type: integer
+                required:
+                - id
+                - name
+                - type
+                - length
+                - width
+                - height
+                - weight
+        '404':
+          description: product not found
+servers:
+- url: http://{defaultHost}
+  variables:
+    defaultHost:
+      default: localhost:3000
