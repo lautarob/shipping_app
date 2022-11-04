@@ -14,6 +14,7 @@ Shipping App requires [Ruby on Rails](https://rubyonrails.org) v7+ to run.
 - run docker build .
 - run docker-compose up
 - run docker-compose run rake products:pull
+
 The API is running on localhost:3000 and Frontend localhost:3001
 
 ## Documentation
