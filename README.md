@@ -11,10 +11,9 @@ Shipping App uses a number of open source projects to work properly:
 
 Shipping App requires [Ruby on Rails](https://rubyonrails.org) v7+ to run.
 
-1- run docker build .
-2- run docker-compose up
-3- run docker-compose run backend rake products:pull
-
+- run docker build .
+- run docker-compose up
+- run docker-compose run rake products:pull
 The API is running on localhost:3000 and Frontend localhost:3001
 
 ## Documentation
